@@ -1,0 +1,30 @@
+prefix: "&8(&dMyTags&8) &7> "
+no_permission: "%prefix% &fYou don't have permission to execute this command"
+database:
+   MySQL_credential:
+      host: "localhost"
+      database: "database"
+      username: "user"
+      password: "password"
+      port: 3306
+      useSSL: "false"
+other:
+   applying_tag_in_chat: true
+   formated_chat: "%mtags_format_player_tag% &f%player% %mtags_format_player_tag% &7>> &f%message%"
+   sound_on_open_menus:
+      use: true
+      sound: "BLOCK_CHEST_OPEN:1.0:2.0" 
+   sound_on_close_menus:
+      use: true
+      sound: "BLOCK_CHEST_CLOSE:1.0:2.0"
+   sound_on_tag_update:
+      use: true
+      sound: "ENTITY_PLAYER_LEVELUP:1.0:2.0" ## SOUND : volume : pitch
+   sound_on_color_tag_update:
+      use: true
+      sound: "ENTITY_PLAYER_LEVELUP:1.0:2.0" ## SOUND : volume : pitch
+   messages:
+      on_tag_update: "%prefix% &fYour tag was correctly updated to: &a%tag%"
+      no_tag_permission: "%prefix% &fYou don't have permission to pick this tag!!"
+      on_color_tag_update: "%prefix% &fYour color tag was correctly updated to: &a%color%"
+      null_tag: "%prefix% &fYour tag is currently null!"

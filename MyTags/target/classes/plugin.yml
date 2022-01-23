@@ -1,0 +1,13 @@
+main: apptags.Main
+name: MyTags
+version: 1.0
+author: Giyu
+api-version: 1.13
+depends: [PlaceholderAPI]
+
+commands:
+   mytags:
+      description: ""
+      aliases: [myt, mt, mtags]
+   tags:
+      description: ""
