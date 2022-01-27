@@ -83,7 +83,8 @@ public class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        this.getLogger().info("Loading...");
+        this.getLogger().info("Loading....");
+        this.getLogger().info("ASD...");
         loadYamlFiles();
         registerCmds();
         this.mySQL = new MySQL();
